@@ -1,0 +1,25 @@
+.about {
+  &-right-side {
+    padding-left: 64px;
+    padding-right: 116px;
+  }
+
+  &-list {
+    display: flex;
+
+    &-item {
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+    }
+  }
+
+  &-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.857;
+    letter-spacing: 0.02em;
+    color: $description-light-theme-color;
+    margin-bottom: 40px;
+  }
+}

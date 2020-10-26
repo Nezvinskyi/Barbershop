@@ -1,0 +1,24 @@
+.title {
+  font-family: $secondary-font;
+  @include font(700, 42px, 49px);
+  letter-spacing: 0.05em;
+
+  &-dark-theme {
+    color: $title-dark-theme-color;
+  }
+
+  &-light-theme {
+    color: $title-light-theme-color;
+  }
+
+  .about &,
+  .achievements & {
+    margin-bottom: 20px;
+  }
+
+  .services &,
+  .masters &,
+  .contact-wrapper & {
+    margin-bottom: 44px;
+  }
+}

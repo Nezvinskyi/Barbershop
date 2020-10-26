@@ -1,0 +1,14 @@
+.contact-wrapper {
+  display: flex;
+  background-color: #191c26;
+}
+
+.contact-form-section,
+.contact-information {
+  width: 50%;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+@import "./contact-form";
+@import "./contact-info";
